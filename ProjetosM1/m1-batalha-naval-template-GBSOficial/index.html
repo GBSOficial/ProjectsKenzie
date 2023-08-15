@@ -1,0 +1,509 @@
+<!-- 
+  Aqui se encontra a interface para voce 
+  interagir com os testes. Não altere nada.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Batalha Naval</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./pages/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container py-5">
+      <div class="d-grid gap-2">
+        <h1>Batalha Naval</h1>
+
+        <!-- 
+          ==========================================================
+          Begin allocateShips Tests
+          ==========================================================
+        -->
+
+        <button
+          id="btn-allocate-ships-tests"
+          class="btn btn-primary"
+          type="button"
+        >
+          Rodar Testes allocateShips
+        </button>
+
+        <div id="allocate-ships-message-box" class="message-box"></div>
+        <!-- 
+          Begin Accordion 1 
+        -->
+        <div class="accordion" id="accordionAllocateShips">
+          <!-- 
+            Accordion 1 Item 1 
+          -->
+          <div id="ac1-allocate-ships" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste1-allocate-ships"
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOneAllocateShips"
+                aria-expanded="true"
+                aria-controls="collapseOneAllocateShips"
+              >
+                Teste #A1
+              </button>
+            </h2>
+            <div
+              id="collapseOneAllocateShips"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionAllocateShips"
+            >
+              <div class="accordion-body">
+                Para executar a bateria de testes, clique no botão
+                <strong>Rodar Testes</strong>. Caso queira verificar os dados
+                que foram testados, clique sobre cada teste para expandir a
+                área. Os testes só começarão a funcionar caso voce declare as
+                funções corretamente .
+              </div>
+            </div>
+          </div>
+          <!-- 
+            Accordion 1 Item 2 
+          -->
+          <div id="ac2-allocate-ships" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste2-allocate-ships"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwoAllocateShips"
+                aria-expanded="false"
+                aria-controls="collapseTwoAllocateShips"
+              >
+                Teste #A2
+              </button>
+            </h2>
+            <div
+              id="collapseTwoAllocateShips"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionAllocateShips"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+            Accordion 1 Item 3
+          -->
+          <div id="ac3-allocate-ships" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste3-allocate-ships"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThreeAllocateShips"
+                aria-expanded="false"
+                aria-controls="collapseThreeAllocateShips"
+              >
+                Teste #A3
+              </button>
+            </h2>
+            <div
+              id="collapseThreeAllocateShips"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionAllocateShips"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Accordion 1 -->
+
+        <!-- 
+          ==========================================================
+          End allocateShips Tests
+          ==========================================================
+        -->
+
+        <!-- 
+          ==========================================================
+          Begin checkGuesses Tests
+          ==========================================================
+        -->
+
+        <button
+          id="btn-check-guesses-tests"
+          class="btn btn-primary"
+          type="button"
+        >
+          Rodar Testes checkGuesses
+        </button>
+
+        <div id="check-guesses-message-box" class="message-box"></div>
+        <!-- 
+          Begin Accordion 2
+        -->
+        <div class="accordion" id="accordionCheckGuesses">
+          <!-- 
+            Accordion 2 Item 1 
+          -->
+          <div id="ac1-check-guesses" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste1-check-guesses"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOneCheckGuesses"
+                aria-expanded="false"
+                aria-controls="collapseOneCheckGuesses"
+              >
+                Teste #B1
+              </button>
+            </h2>
+            <div
+              id="collapseOneCheckGuesses"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckGuesses"
+            >
+              <div class="accordion-body">
+                Para executar a bateria de testes, clique no botão
+                <strong>Rodar Testes</strong>. Caso queira verificar os dados
+                que foram testados, clique sobre cada teste para expandir a
+                área. Os testes só começarão a funcionar caso voce declare as
+                funções corretamente .
+              </div>
+            </div>
+          </div>
+          <!-- 
+            Accordion 2 Item 2 
+          -->
+          <div id="ac2-check-guesses" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste2-check-guesses"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwoCheckGuesses"
+                aria-expanded="false"
+                aria-controls="collapseTwoCheckGuesses"
+              >
+                Teste #B2
+              </button>
+            </h2>
+            <div
+              id="collapseTwoCheckGuesses"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckGuesses"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+            Accordion 2 Item 3
+          -->
+          <div id="ac3-check-guesses" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste3-check-guesses"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThreeCheckGuesses"
+                aria-expanded="false"
+                aria-controls="collapseThreeCheckGuesses"
+              >
+                Teste #B3
+              </button>
+            </h2>
+            <div
+              id="collapseThreeCheckGuesses"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckGuesses"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+            Accordion 2 Item 4
+          -->
+          <div id="ac4-check-guesses" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste4-check-guesses"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFourCheckGuesses"
+                aria-expanded="false"
+                aria-controls="collapseFourCheckGuesses"
+              >
+                Teste #B4
+              </button>
+            </h2>
+            <div
+              id="collapseFourCheckGuesses"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckGuesses"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+           Accordion 2 Item 5
+         -->
+          <div id="ac5-check-guesses" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste5-check-guesses"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFiveCheckGuesses"
+                aria-expanded="false"
+                aria-controls="collapseFiveCheckGuesses"
+              >
+                Teste #B5
+              </button>
+            </h2>
+            <div
+              id="collapseFiveCheckGuesses"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckGuesses"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+           Accordion 2 Item 6
+         -->
+          <div id="ac6-check-guesses" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste6-check-guesses"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSixCheckGuesses"
+                aria-expanded="false"
+                aria-controls="collapseSixCheckGuesses"
+              >
+                Teste #B6
+              </button>
+            </h2>
+            <div
+              id="collapseSixCheckGuesses"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckGuesses"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Accordion 2 -->
+
+        <!-- 
+          ==========================================================
+          End checkGuesses Tests
+          ==========================================================
+         -->
+
+        <!-- 
+          ==========================================================
+          Begin checkWinCondition Tests
+          ==========================================================
+         -->
+
+        <button
+          id="btn-check-win-condition-tests"
+          class="btn btn-primary"
+          type="button"
+        >
+          Rodar Testes checkWinCondition
+        </button>
+
+        <div id="check-win-condition-message-box" class="message-box"></div>
+        <!-- 
+          Begin Accordion 3
+        -->
+        <div class="accordion" id="accordionCheckWinCondition">
+          <!-- 
+            Accordion 3 Item 1 
+          -->
+          <div id="ac1-check-win-condition" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste1-check-win-condition"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOneCheckWinCondition"
+                aria-expanded="false"
+                aria-controls="collapseOneCheckWinCondition"
+              >
+                Teste #C1
+              </button>
+            </h2>
+            <div
+              id="collapseOneCheckWinCondition"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckWinCondition"
+            >
+              <div class="accordion-body">
+                Para executar a bateria de testes, clique no botão
+                <strong>Rodar Testes</strong>. Caso queira verificar os dados
+                que foram testados, clique sobre cada teste para expandir a
+                área. Os testes só começarão a funcionar caso voce declare as
+                funções corretamente .
+              </div>
+            </div>
+          </div>
+          <!-- 
+          Accordion 3 Item 2 
+        -->
+          <div id="ac2-check-win-condition" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste2-check-win-condition"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwoCheckWinCondition"
+                aria-expanded="false"
+                aria-controls="collapseTwoCheckWinCondition"
+              >
+                Teste #C2
+              </button>
+            </h2>
+            <div
+              id="collapseTwoCheckWinCondition"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckWinCondition"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+          Accordion 3 Item 3
+        -->
+          <div id="ac3-check-win-condition" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste3-check-win-condition"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThreeCheckWinCondition"
+                aria-expanded="false"
+                aria-controls="collapseThreeCheckWinCondition"
+              >
+                Teste #C3
+              </button>
+            </h2>
+            <div
+              id="collapseThreeCheckWinCondition"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckWinCondition"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+          Accordion 3 Item 4
+        -->
+          <div id="ac4-check-win-condition" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste4-check-win-condition"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFourCheckWinCondition"
+                aria-expanded="false"
+                aria-controls="collapseFourCheckWinCondition"
+              >
+                Teste #C4
+              </button>
+            </h2>
+            <div
+              id="collapseFourCheckWinCondition"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckWinCondition"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+          Accordion 3 Item 5
+        -->
+          <div id="ac5-check-win-condition" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste5-check-win-condition"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFiveCheckWinCondition"
+                aria-expanded="false"
+                aria-controls="collapseFiveCheckWinCondition"
+              >
+                Teste #C5
+              </button>
+            </h2>
+            <div
+              id="collapseFiveCheckWinCondition"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckWinCondition"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+          <!-- 
+          Accordion 3 Item 6
+        -->
+          <div id="ac6-check-win-condition" class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                id="teste6-check-win-condition"
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSixCheckWinCondition"
+                aria-expanded="false"
+                aria-controls="collapseSixCheckWinCondition"
+              >
+                Teste #C6
+              </button>
+            </h2>
+            <div
+              id="collapseSixCheckWinCondition"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionCheckWinCondition"
+            >
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Accordion 3 -->
+        <!-- 
+          ==========================================================
+          End checkWinCondition Tests
+          ==========================================================
+         -->
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./script.js"></script>
+  <script src="./testes/testes.js"></script>
+</html>

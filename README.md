@@ -11,6 +11,7 @@ Aqui está todos Projetos que eu Aprendi na Kenzie, vou atualizando de acordo co
 - m1-pedra-papel-tesoura-GBSOficial
 - m1-lista-de-tarefas-GBSOficial
 - m1-catalogo-geek-template-GBSOficial
+- m1-batalha-naval-template-GBSOficial
 
 # Autor
 

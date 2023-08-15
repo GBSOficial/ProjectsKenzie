@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    color: #000000;
+    background-color: white;
+    font-size: 15px;
+  }
+  
+  main {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  
