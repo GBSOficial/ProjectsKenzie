@@ -13,6 +13,11 @@ Aqui está todos Projetos que eu Aprendi na Kenzie, vou atualizando de acordo co
 - m1-catalogo-geek-template-GBSOficial
 - m1-batalha-naval-template-GBSOficial
 
+# ProjetosM2
+
+- m2-entrega-criando-rede-social-GBSOficial
+
+
 # Autor
 
 Gabriel Bruno da Silva

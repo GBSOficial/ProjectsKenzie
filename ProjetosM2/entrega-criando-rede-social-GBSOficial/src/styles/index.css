@@ -1,0 +1,354 @@
+main
+{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 50px;
+    gap: 20px;
+}
+
+
+.main__zone1
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    margin: 50px;
+}
+.header__container
+{
+    background-color: var(--grey1);
+    display: flex;
+    padding: 1.25rem 7rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.header__button-exit
+{
+    color: var(--WhiteFixed);
+}
+.main__userInfo-img
+{
+    height: 3.125rem;
+}
+
+.main__userInfo-job
+{
+    color: var(--grey2);
+}
+
+.main__suggestions
+{
+    margin-right: 10%;
+    width: 395px;
+}
+.main__suggestions-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__userInfo     
+{
+    display: flex;
+    align-items: center;
+}
+.main__userInfo-details
+{
+    margin: 1rem;
+}
+.main__create-post
+{
+    width: 65%;
+}
+.main__postForm
+{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.main__postForm-input
+{
+    padding: 10px;
+    border: solid 4px var(--grey4);
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: var(--grey2);
+}
+.main__postForm-input:focus
+{
+    border: solid 4px var(--brand-2);
+}
+.main__postForm-textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: solid 4px var(--grey4);
+    color: var(--grey2);
+}
+.main__postForm-textarea:focus
+{
+    border: solid 4px var(--brand-2);
+}
+.main__postForm-button
+{
+    padding: 14px;
+    margin-top: 2%;
+    background-color: var(--brand-1);
+    color: var(--WhiteFixed);
+    align-self: flex-end;
+}
+.main__postForm-button:hover
+{
+    background-color: var(--brand-2);
+}
+
+.main__userInfo-button
+{
+    padding: 10px 15px;
+    background-color: var(--WhiteFixed);
+    color: var(--grey1);
+    border: solid 1px var(--grey1);
+    align-self: center;
+
+}
+
+.main__userInfo-button:hover
+{
+    background-color: var(--WhiteFixed);
+    border: solid 1px var(--brand-2);
+    color: var(--brand-2);
+}
+.main__userInfo-button:focus
+{
+    color: var(--WhiteFixed);
+    background-color: var(--brand-2);
+}
+.main__article-actionOpenBtn
+{
+    padding: 10px;
+    background-color: var(--grey1);
+    color: var(--WhiteFixed);
+}
+.main__article-actionOpenBtn:hover
+{
+    background-color: var(--grey0);
+}
+
+.main__article-action
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main__article-container
+{
+    width: 60%;
+}
+
+.main__article-postTitle
+{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.main__article-postContent
+{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 60%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.main__article-postLike
+{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+    margin: 20px;
+    gap: 5px;
+}
+
+.main__article-postLike:hover
+{
+    fill: var(--red);
+}
+
+.modal__userInfo
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.modal__postContent
+{
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.75rem;
+}
+.modal__userInfo-img
+{
+    height: 3.125rem;
+    margin-right: 0.5rem;
+}
+.modal__customTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .modal__closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--grey2);
+    cursor: pointer;
+  }
+
+  .modal__likeContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .modal__like {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .modal__likeHeart {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    fill: var(--grey2);
+    transition: fill 0.3s;
+  }
+  
+  .modal__likeCount {
+    font-size: 14px;
+    color: var(--grey2);
+    margin-right: 16px;
+  }
+  
+  .modal__like:hover .modal__likeHeart {
+    fill: var(--red);
+  }
+
+  .modal__followContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 143px;
+  }
+  
+  .modal__followBtn {
+    padding: 10px 15px;
+    background-color: var(--WhiteFixed);
+    color: var(--grey1);
+    border: solid 1px var(--grey1);
+  }
+  
+  .modal__followBtn:hover {
+    background-color: var(--WhiteFixed);
+    border: solid 1px var(--brand-2);
+    color: var(--brand-2);
+  }
+  
+  .modal__followBtn:focus {
+    outline: none;
+    color: var(--WhiteFixed);
+    background-color: var(--brand-2);
+  }
+
+  #modal {
+    width: 33%;
+    max-height: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  #modalBackdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+  }
+  
+
+@media (max-width: 1025px) {
+
+    .main__container
+    {
+        padding: 100px 25px;
+        width: 100%;
+    }
+    .main__zone1
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    } 
+    .main__create-post
+    {
+        width: 95%;
+    }
+    .main__article-container
+    {
+        width: 100%;
+    }
+    .main__suggestions
+    {
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-top: 20px;
+    }
+    .main__suggestions-item
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__suggestions-list{
+        display: flex;
+        gap: 100px; 
+    }
+  }
+

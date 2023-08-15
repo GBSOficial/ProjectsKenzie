@@ -1,0 +1,44 @@
+body 
+{
+    font-family: var(--font-family-body);
+}
+
+.title1
+{
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.title2
+{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.text1
+{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.75rem;
+}
+
+.text2
+{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+.text3
+{
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.text2--bold
+{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
