@@ -8,6 +8,7 @@ Aqui está todos Projetos que eu Aprendi na Kenzie, vou atualizando de acordo co
 - m1-sp1-kenzie-blog-GBSOficial
 - m1-TAF-GBSOficial
 - m1-kenzie-flix-GBSOficial
+- m1-pedra-papel-tesoura-GBSOficial
 
 
 # Autor
