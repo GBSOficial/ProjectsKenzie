@@ -16,6 +16,7 @@ Aqui está todos Projetos que eu Aprendi na Kenzie, vou atualizando de acordo co
 # ProjetosM2
 
 - m2-entrega-criando-rede-social-GBSOficial
+- m2-entrega-exercitando-es6-GBSOficial
 
 
 # Autor
